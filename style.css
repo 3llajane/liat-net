@@ -1,4 +1,12 @@
 @import url();
+footer{
+    display: flex;
+    color:aliceblue;
+    background-color: rgb(255, 0, 204);
+    justify-content: space-between; 
+    margin: auto;
+    align: left;
+}
 body{
     background-color: rgb(4, 248, 223);
     color:rgb(255, 0, 204);
@@ -19,6 +27,11 @@ h1{
 h2{
     color:rgb(255, 0, 204) ;
     margin: auto;
+}
+
+h3{  color: rgb(4, 248, 223) ;
+    margin: auto;
+
 }
 
 section {
@@ -58,14 +71,8 @@ body{
     border-radius: 8px; /* Optional: round the corners of the images */
     object-fit: cover; /* Crop images to fit within their grid cell */
   }
-  
-footer{
-    display: flex;
-    background-color: rgb(255, 0, 204);
-    justify-content: space-between; 
-    margin: auto
-}
 
+  
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
